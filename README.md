@@ -1,2 +1,8 @@
-# nav-site
-苟哥的开发生涯中遇到了很多有意思的网站，苟哥编写了一个网站作为这些网站的导航网站。没有后端，一个纯前端的项目。使用技术是，vite+ts+react+reactRouter+eslint+prettier+taiwindcss
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
