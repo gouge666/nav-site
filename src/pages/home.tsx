@@ -2,7 +2,7 @@
  * @Author: 苟培烜 3541037829@qq.com
  * @Date: 2023-10-12 21:59:30
  * @LastEditors: 苟培烜 3541037829@qq.com
- * @LastEditTime: 2023-10-19 12:26:04
+ * @LastEditTime: 2023-10-19 15:23:46
  * @FilePath: \temp-nav-site\src\pages\home.jsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -77,6 +77,13 @@ const oftenUsedSites: SiteBlockProps[] = [
     title: '腾讯云',
     description: '腾讯云',
     image: 'https://cloudcache.tencent-cloud.com/qcloud/favicon.ico',
+  },
+  {
+    url: 'http://101.42.224.203:8888/',
+    title: '宝塔',
+    description: '宝塔',
+    image:
+      'https://mojie-1311386424.cos.ap-nanjing.myqcloud.com/gouge/baota_favicon.ico',
   },
   {
     url: 'https://juejin.cn/',
