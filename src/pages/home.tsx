@@ -2,7 +2,7 @@
  * @Author: 苟培烜 3541037829@qq.com
  * @Date: 2023-10-12 21:59:30
  * @LastEditors: 苟培烜 3541037829@qq.com
- * @LastEditTime: 2023-10-17 17:16:57
+ * @LastEditTime: 2023-10-19 12:26:04
  * @FilePath: \temp-nav-site\src\pages\home.jsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -92,6 +92,16 @@ const oftenUsedSites: SiteBlockProps[] = [
   },
 ];
 
+// charmai
+const devCharmAi: SiteBlockProps[] = [
+  {
+    url: 'https://photoai.com',
+    title: 'PhotoAi',
+    description: 'PhotoAi',
+    image: 'https://photoai.com/assets/logo.svg',
+  },
+];
+
 export default function Home() {
   return (
     <>
@@ -99,6 +109,7 @@ export default function Home() {
         <div className="flex flex-wrap justify-center">
           <Column title="开发项目" siteBlockList={developProjects}></Column>
           <Column title="金子网站" siteBlockList={oftenUsedSites}></Column>
+          <Column title="charm出海" siteBlockList={devCharmAi}></Column>
         </div>
       </div>
     </>
